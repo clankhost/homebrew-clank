@@ -1,28 +1,28 @@
 class Clank < Formula
   desc "CLI for the Clank deployment platform"
   homepage "https://clank.host"
-  version "0.3.14"
+  version "0.3.15"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/clankhost/clank-cli/releases/download/v0.3.14/clank_darwin_arm64.tar.gz"
-      sha256 "9b3dd30c96f9533345253a8442c2d590fc0c1790c2d83caca706b736d12c456f"
+      url "https://github.com/clankhost/clank-cli/releases/download/v0.3.15/clank_darwin_arm64.tar.gz"
+      sha256 "7e5a7b6ef39c3fa6ff089ebc4d4f1bb7f1d9ba054fdf8ea3e17cdb20d81d203d"
     end
     on_intel do
-      url "https://github.com/clankhost/clank-cli/releases/download/v0.3.14/clank_darwin_amd64.tar.gz"
-      sha256 "6030f1eda127f1f668dd2cb178daaeaa34f3a058ce7540c6c885117dc8e21613"
+      url "https://github.com/clankhost/clank-cli/releases/download/v0.3.15/clank_darwin_amd64.tar.gz"
+      sha256 "7861527e4efa78f177cf3adc6194d961f92ec24a93b212717f8e92cbc23ad054"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/clankhost/clank-cli/releases/download/v0.3.14/clank_linux_arm64.tar.gz"
-      sha256 "96659be6dae358912b9042eaae7c9c214e900de343bc0bb090fc53da4e5cf70e"
+      url "https://github.com/clankhost/clank-cli/releases/download/v0.3.15/clank_linux_arm64.tar.gz"
+      sha256 "5bc9dcb66ecbbecd532add6fc250fa48705b9247696cf05899da9a7ac91cab39"
     end
     on_intel do
-      url "https://github.com/clankhost/clank-cli/releases/download/v0.3.14/clank_linux_amd64.tar.gz"
-      sha256 "46519e55c60b717f37c821e6b0788d31ae413251f8e4caadb1b71af51bcaacc4"
+      url "https://github.com/clankhost/clank-cli/releases/download/v0.3.15/clank_linux_amd64.tar.gz"
+      sha256 "c3f757f054d6cbb79833212cfed2137fdc5b59b5f1cc491bf6fa11b60f59d85d"
     end
   end
 
